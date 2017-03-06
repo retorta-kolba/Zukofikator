@@ -12,5 +12,5 @@
    "minimum_chrome_version": "20",
    "name": "Зюкофикатор",
    "permissions": [ "storage" ],
-   "version": "0.3"
+   "version": "0.4"
 }
