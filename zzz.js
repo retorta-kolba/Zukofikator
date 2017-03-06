@@ -139,6 +139,14 @@ function zzz()
                 pic[i].setAttribute("elephant",true)
                 pic[i].removeAttribute("height")
                 pic[i].removeAttribute("width")
+                if(pic[i].getAttribute("style"))
+                {
+                    
+                    if(pic[i].getAttribute("style").indexOf("width") != -1)
+                    {
+                        pic[i].setAttribute("style","width: 500px; margin-top: 0px;");
+                    }
+                }
             }
         }
         pic = document.getElementsByTagName("*");
