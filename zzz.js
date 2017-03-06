@@ -179,7 +179,7 @@ function zzz()
         
     }
     // run
-    setTimeout(function() {zzz();}, 2000);
+    setTimeout(function() {zzz();}, 500);
     
 }
 
