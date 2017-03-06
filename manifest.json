@@ -1,0 +1,16 @@
+{
+    "content_scripts": [ {
+        "all_frames": true,
+        "js": [ "zzz.js" ],
+        "matches": [  "*://*.vk.com/*"],
+        "run_at": "document_end"
+    } ],
+   "content_security_policy": "default-src 'self'",
+   "description": "Очень важный паравозовозовозик",
+
+   "manifest_version": 2,
+   "minimum_chrome_version": "20",
+   "name": "Зюкофикатор",
+   "permissions": [ "storage" ],
+   "version": "0.3"
+}
